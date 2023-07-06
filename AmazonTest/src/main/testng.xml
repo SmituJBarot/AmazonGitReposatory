@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Amazon suite Runner">
+
+<listeners>
+			<listener class-name="extendReportListener.ExtendReportListener"/>
+</listeners>
+  <test name="Amazon App Test">
+    <classes>
+      <class name="tests.HomePageTest"></class>
+      <class name="tests.LoginPageTest"></class>
+      <class name="tests.AmazonPageTest"></class>
+      <class name="tests.ElectronicPageTest"></class>
+      <class name="tests.KeyBoardPageTest"></class>
+      <class name="tests.MusicInstrumentPageTest"></class>
+      <class name="tests.PianoPageTest"></class>
+      <class name="tests.RegisterPageTest"></class>
+      <class name="tests.ShoppingPageTest"></class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

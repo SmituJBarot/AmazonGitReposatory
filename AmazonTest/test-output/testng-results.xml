@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="37" passed="36" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-06T01:37:48Z" name="Amazon suite Runner" finished-at="2023-07-06T01:45:47Z" duration-ms="478587">
+    <groups>
+    </groups>
+    <test started-at="2023-07-06T01:37:48Z" name="Amazon App Test" finished-at="2023-07-06T01:45:47Z" duration-ms="478587">
+      <class name="tests.ElectronicPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:38:16Z" name="setUp" finished-at="2023-07-05T21:38:22Z" duration-ms="6710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateElectronicPageTitle()[pri:1, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:38:22Z" name="validateElectronicPageTitle" finished-at="2023-07-05T21:38:23Z" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateElectronicPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:38:23Z" name="endUp" finished-at="2023-07-05T21:38:23Z" duration-ms="737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:40:04Z" name="setUp" finished-at="2023-07-05T21:40:10Z" duration-ms="6345" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAllLinksFromDropDOwnTest()[pri:2, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:40:10Z" name="getAllLinksFromDropDOwnTest" finished-at="2023-07-05T21:40:14Z" duration-ms="4203" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllLinksFromDropDOwnTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:40:14Z" name="endUp" finished-at="2023-07-05T21:40:15Z" duration-ms="779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:42:32Z" name="setUp" finished-at="2023-07-05T21:42:52Z" duration-ms="19523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="scrolldownClickOnMusicInstrumentTest()[pri:3, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:42:52Z" name="scrolldownClickOnMusicInstrumentTest" finished-at="2023-07-05T21:42:56Z" duration-ms="3719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrolldownClickOnMusicInstrumentTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:42:56Z" name="endUp" finished-at="2023-07-05T21:42:56Z" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:43:49Z" name="setUp" finished-at="2023-07-05T21:43:56Z" duration-ms="6977" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyElectronicImgTest()[pri:4, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:43:56Z" name="verifyElectronicImgTest" finished-at="2023-07-05T21:43:59Z" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElectronicImgTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.ElectronicPageTest@740773a3]" started-at="2023-07-05T21:43:59Z" name="endUp" finished-at="2023-07-05T21:43:59Z" duration-ms="742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.ElectronicPageTest -->
+      <class name="tests.RegisterPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterPageTest@2f54a33d]" started-at="2023-07-05T21:38:59Z" name="setUp" finished-at="2023-07-05T21:39:07Z" duration-ms="7762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateRegisterPageTitle()[pri:1, instance:tests.RegisterPageTest@2f54a33d]" started-at="2023-07-05T21:39:07Z" name="validateRegisterPageTitle" finished-at="2023-07-05T21:39:07Z" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRegisterPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.RegisterPageTest@2f54a33d]" started-at="2023-07-05T21:39:07Z" name="endUp" finished-at="2023-07-05T21:39:08Z" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.RegisterPageTest@2f54a33d]" started-at="2023-07-05T21:40:57Z" name="setUp" finished-at="2023-07-05T21:41:04Z" duration-ms="7163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createNewAccountTest()[pri:2, instance:tests.RegisterPageTest@2f54a33d]" started-at="2023-07-05T21:41:04Z" name="createNewAccountTest" finished-at="2023-07-05T21:41:06Z" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.RegisterPageTest@2f54a33d]" started-at="2023-07-05T21:41:06Z" name="endUp" finished-at="2023-07-05T21:41:06Z" duration-ms="722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.RegisterPageTest -->
+      <class name="tests.MusicInstrumentPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:38:34Z" name="setUp" finished-at="2023-07-05T21:38:43Z" duration-ms="8957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateMusicInstrumentPageTitle()[pri:1, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:38:43Z" name="validateMusicInstrumentPageTitle" finished-at="2023-07-05T21:38:43Z" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateMusicInstrumentPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:38:43Z" name="endUp" finished-at="2023-07-05T21:38:44Z" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:40:28Z" name="setUp" finished-at="2023-07-05T21:40:36Z" duration-ms="8208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnKeyboardPianoTest()[pri:2, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:40:36Z" name="clickOnKeyboardPianoTest" finished-at="2023-07-05T21:40:38Z" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnKeyboardPianoTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:40:38Z" name="endUp" finished-at="2023-07-05T21:40:39Z" duration-ms="786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:43:09Z" name="setUp" finished-at="2023-07-05T21:43:20Z" duration-ms="10611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAllHeaderLinksTest()[pri:3, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:43:20Z" name="getAllHeaderLinksTest" finished-at="2023-07-05T21:43:21Z" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllHeaderLinksTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.MusicInstrumentPageTest@55740540]" started-at="2023-07-05T21:43:21Z" name="endUp" finished-at="2023-07-05T21:43:21Z" duration-ms="782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.MusicInstrumentPageTest -->
+      <class name="tests.ShoppingPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:39:08Z" name="setUp" finished-at="2023-07-05T21:39:29Z" duration-ms="21543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateShoppingPageTitle()[pri:1, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:39:29Z" name="validateShoppingPageTitle" finished-at="2023-07-05T21:39:29Z" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateShoppingPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:39:29Z" name="endUp" finished-at="2023-07-05T21:39:30Z" duration-ms="837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:41:06Z" name="setUp" finished-at="2023-07-05T21:41:26Z" duration-ms="19719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="confirmBucketItemTest()[pri:2, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:41:26Z" name="confirmBucketItemTest" finished-at="2023-07-05T21:41:30Z" duration-ms="4429" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmBucketItemTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:41:30Z" name="endUp" finished-at="2023-07-05T21:41:31Z" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:41:37Z" name="setUp" finished-at="2023-07-05T21:41:59Z" duration-ms="22313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="confirmCartItemsTest()[pri:3, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:41:59Z" name="confirmCartItemsTest" finished-at="2023-07-05T21:42:01Z" duration-ms="1217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmCartItemsTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.ShoppingPageTest@1018bde2]" started-at="2023-07-05T21:42:01Z" name="endUp" finished-at="2023-07-05T21:42:02Z" duration-ms="851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.ShoppingPageTest -->
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:37:48Z" name="setUp" finished-at="2023-07-05T21:37:56Z" duration-ms="7658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateHomePageTitle()[pri:1, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:37:56Z" name="validateHomePageTitle" finished-at="2023-07-05T21:37:56Z" duration-ms="52" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHomePageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:37:56Z" name="endUp" finished-at="2023-07-05T21:37:57Z" duration-ms="771" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:39:30Z" name="setUp" finished-at="2023-07-05T21:39:34Z" duration-ms="4209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAmazonBottomLableTest()[pri:2, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:39:34Z" name="verifyAmazonBottomLableTest" finished-at="2023-07-05T21:39:35Z" duration-ms="282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonBottomLableTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:39:35Z" name="endUp" finished-at="2023-07-05T21:39:35Z" duration-ms="821" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:41:31Z" name="setUp" finished-at="2023-07-05T21:41:36Z" duration-ms="5070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getDefaultValueFromSearchBoxTest()[pri:3, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:41:36Z" name="getDefaultValueFromSearchBoxTest" finished-at="2023-07-05T21:41:36Z" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getDefaultValueFromSearchBoxTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:41:36Z" name="endUp" finished-at="2023-07-05T21:41:37Z" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:43:39Z" name="setUp" finished-at="2023-07-05T21:43:48Z" duration-ms="8837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAllOptionsFromSuggestionListTest()[pri:4, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:43:48Z" name="getAllOptionsFromSuggestionListTest" finished-at="2023-07-05T21:43:49Z" duration-ms="1028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllOptionsFromSuggestionListTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:43:49Z" name="endUp" finished-at="2023-07-05T21:43:49Z" duration-ms="735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:44:19Z" name="setUp" finished-at="2023-07-05T21:44:27Z" duration-ms="8200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnElectronicsLinkTest()[pri:5, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:44:27Z" name="clickOnElectronicsLinkTest" finished-at="2023-07-05T21:44:28Z" duration-ms="335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnElectronicsLinkTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:44:28Z" name="endUp" finished-at="2023-07-05T21:44:28Z" duration-ms="725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:44:37Z" name="setUp" finished-at="2023-07-05T21:44:42Z" duration-ms="4727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getAllFooterLinksTest()[pri:6, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:44:42Z" name="getAllFooterLinksTest" finished-at="2023-07-05T21:44:43Z" duration-ms="1709" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllFooterLinksTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:44:43Z" name="endUp" finished-at="2023-07-05T21:44:44Z" duration-ms="753" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:45:21Z" name="setUp" finished-at="2023-07-05T21:45:26Z" duration-ms="4931" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnSignInLinkTest()[pri:7, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:45:26Z" name="clickOnSignInLinkTest" finished-at="2023-07-05T21:45:26Z" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnSignInLinkTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:45:26Z" name="endUp" finished-at="2023-07-05T21:45:27Z" duration-ms="736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:45:39Z" name="setUp" finished-at="2023-07-05T21:45:45Z" duration-ms="5215" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getListAfterHoverTest()[pri:8, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:45:45Z" name="getListAfterHoverTest" finished-at="2023-07-05T21:45:46Z" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getListAfterHoverTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.HomePageTest@4470f8a6]" started-at="2023-07-05T21:45:46Z" name="endUp" finished-at="2023-07-05T21:45:47Z" duration-ms="732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.KeyBoardPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:38:23Z" name="setUp" finished-at="2023-07-05T21:38:33Z" duration-ms="10062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateKeyBoardPageTitle()[pri:1, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:38:33Z" name="validateKeyBoardPageTitle" finished-at="2023-07-05T21:38:33Z" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateKeyBoardPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:38:33Z" name="endUp" finished-at="2023-07-05T21:38:34Z" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:40:15Z" name="setUp" finished-at="2023-07-05T21:40:25Z" duration-ms="10402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnfolktoolTest()[pri:2, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:40:25Z" name="clickOnfolktoolTest" finished-at="2023-07-05T21:40:27Z" duration-ms="1874" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnfolktoolTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:40:27Z" name="endUp" finished-at="2023-07-05T21:40:28Z" duration-ms="824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:42:56Z" name="setUp" finished-at="2023-07-05T21:43:06Z" duration-ms="9370" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="backForwardRefreshTest()[pri:3, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:43:06Z" name="backForwardRefreshTest" finished-at="2023-07-05T21:43:09Z" duration-ms="2936" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- backForwardRefreshTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:43:09Z" name="endUp" finished-at="2023-07-05T21:43:09Z" duration-ms="780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:43:59Z" name="setUp" finished-at="2023-07-05T21:44:10Z" duration-ms="10678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateKeyBoardHeadingTest()[pri:4, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:44:10Z" name="validateKeyBoardHeadingTest" finished-at="2023-07-05T21:44:10Z" duration-ms="111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateKeyBoardHeadingTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.KeyBoardPageTest@37f1104d]" started-at="2023-07-05T21:44:10Z" name="endUp" finished-at="2023-07-05T21:44:11Z" duration-ms="766" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.KeyBoardPageTest -->
+      <class name="tests.PianoPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:38:44Z" name="setUp" finished-at="2023-07-05T21:38:58Z" duration-ms="14358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePianoPageTitle()[pri:1, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:38:58Z" name="validatePianoPageTitle" finished-at="2023-07-05T21:38:58Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePianoPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:38:58Z" name="endUp" finished-at="2023-07-05T21:38:59Z" duration-ms="808" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:40:39Z" name="setUp" finished-at="2023-07-05T21:40:56Z" duration-ms="17563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyImgDisplayedTest()[pri:2, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:40:56Z" name="verifyImgDisplayedTest" finished-at="2023-07-05T21:40:56Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImgDisplayedTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:40:56Z" name="endUp" finished-at="2023-07-05T21:40:57Z" duration-ms="801" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:43:21Z" name="setUp" finished-at="2023-07-05T21:43:38Z" duration-ms="16186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="itemAddToCartTest()[pri:3, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:43:38Z" name="itemAddToCartTest" finished-at="2023-07-05T21:43:38Z" duration-ms="308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- itemAddToCartTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.PianoPageTest@60015ef5]" started-at="2023-07-05T21:43:38Z" name="endUp" finished-at="2023-07-05T21:43:39Z" duration-ms="820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.PianoPageTest -->
+      <class name="tests.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:37:57Z" name="setUp" finished-at="2023-07-05T21:38:03Z" duration-ms="5982" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginPageTitle()[pri:1, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:38:03Z" name="validateLoginPageTitle" finished-at="2023-07-05T21:38:03Z" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:38:03Z" name="endUp" finished-at="2023-07-05T21:38:04Z" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:39:35Z" name="setUp" finished-at="2023-07-05T21:39:45Z" duration-ms="10102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginWithCorrectDetailsTest()[pri:2, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:39:45Z" name="loginWithCorrectDetailsTest" finished-at="2023-07-05T21:39:48Z" duration-ms="2119" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginWithCorrectDetailsTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:39:48Z" name="endUp" finished-at="2023-07-05T21:39:48Z" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:42:02Z" name="setUp" finished-at="2023-07-05T21:42:10Z" duration-ms="8465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyAmazonLogoTest()[pri:3, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:42:10Z" name="verifyAmazonLogoTest" finished-at="2023-07-05T21:42:11Z" duration-ms="532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonLogoTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:42:11Z" name="endUp" finished-at="2023-07-05T21:42:11Z" duration-ms="728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:11Z" name="setUp" finished-at="2023-07-05T21:44:17Z" duration-ms="6344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyEmailErrTest()[pri:4, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:17Z" name="verifyEmailErrTest" finished-at="2023-07-05T21:44:18Z" duration-ms="995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailErrTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:18Z" name="endUp" finished-at="2023-07-05T21:44:19Z" duration-ms="719" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:28Z" name="setUp" finished-at="2023-07-05T21:44:35Z" duration-ms="6616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="clickOnCreateNewAccountTest()[pri:5, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:35Z" name="clickOnCreateNewAccountTest" finished-at="2023-07-05T21:44:36Z" duration-ms="1339" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnCreateNewAccountTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:36Z" name="endUp" finished-at="2023-07-05T21:44:37Z" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:44Z" name="setUp" finished-at="2023-07-05T21:44:50Z" duration-ms="5575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="linkToTakeSSTest()[pri:6, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:44:50Z" name="linkToTakeSSTest" finished-at="2023-07-05T21:45:20Z" duration-ms="30561" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Conditions of Use12"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-52NJGNB2', ip: '10.0.0.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\jaldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59677}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: daf367ec1d55fe02bdc36bfccd37e5ee
+*** Element info: {Using=link text, value=Conditions of Use12}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"link text","selector":"Conditions of Use12"}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'LAPTOP-52NJGNB2', ip: '10.0.0.127', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\jaldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59677}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: daf367ec1d55fe02bdc36bfccd37e5ee
+*** Element info: {Using=link text, value=Conditions of Use12}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at jdk.internal.reflect.GeneratedMethodAccessor5.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+	at pages.LoginPage.linkToTakeSS(LoginPage.java:78)
+	at tests.LoginPageTest.linkToTakeSSTest(LoginPageTest.java:68)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkToTakeSSTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:45:20Z" name="endUp" finished-at="2023-07-05T21:45:21Z" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:45:27Z" name="setUp" finished-at="2023-07-05T21:45:36Z" duration-ms="8784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUserNameAfterLogInTest()[pri:7, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:45:36Z" name="validateUserNameAfterLogInTest" finished-at="2023-07-05T21:45:39Z" duration-ms="2813" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUserNameAfterLogInTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.LoginPageTest@7c83dc97]" started-at="2023-07-05T21:45:39Z" name="endUp" finished-at="2023-07-05T21:45:39Z" duration-ms="740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.LoginPageTest -->
+      <class name="tests.AmazonPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:38:04Z" name="setUp" finished-at="2023-07-05T21:38:15Z" duration-ms="11222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyPageTitle()[pri:1, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:38:15Z" name="verifyPageTitle" finished-at="2023-07-05T21:38:15Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:38:15Z" name="endUp" finished-at="2023-07-05T21:38:16Z" duration-ms="763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:39:48Z" name="setUp" finished-at="2023-07-05T21:40:01Z" duration-ms="12820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="seleciMinMaxValueForItemTest()[pri:2, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:40:01Z" name="seleciMinMaxValueForItemTest" finished-at="2023-07-05T21:40:03Z" duration-ms="1691" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleciMinMaxValueForItemTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:40:03Z" name="endUp" finished-at="2023-07-05T21:40:04Z" duration-ms="775" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:42:11Z" name="setUp" finished-at="2023-07-05T21:42:27Z" duration-ms="15743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="finilizeItemPianoTest()[pri:3, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:42:27Z" name="finilizeItemPianoTest" finished-at="2023-07-05T21:42:31Z" duration-ms="4477" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finilizeItemPianoTest -->
+        <test-method is-config="true" signature="endUp()[pri:0, instance:tests.AmazonPageTest@7748410a]" started-at="2023-07-05T21:42:31Z" name="endUp" finished-at="2023-07-05T21:42:32Z" duration-ms="812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endUp -->
+      </class> <!-- tests.AmazonPageTest -->
+    </test> <!-- Amazon App Test -->
+  </suite> <!-- Amazon suite Runner -->
+</testng-results>

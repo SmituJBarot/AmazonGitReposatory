@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon suite Runner]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="extendReportListener.ExtendReportListener"/>
+  </listeners>
+  <test name="Amazon App Test(failed)">
+    <classes>
+      <class name="tests.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="linkToTakeSSTest"/>
+          <include name="endUp"/>
+        </methods>
+      </class> <!-- tests.LoginPageTest -->
+    </classes>
+  </test> <!-- Amazon App Test(failed) -->
+</suite> <!-- Failed suite [Amazon suite Runner] -->

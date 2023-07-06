@@ -1,0 +1,1479 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Amazon_suite_Runner" class="navigator-link">
+              <span class="suite-name border-failed">Amazon suite Runner</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Amazon_suite_Runner" class="navigator-link ">
+                    <span>C:\QAFolder\Selenium_Workspace\AmazonTest\src\main\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Amazon_suite_Runner" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Amazon_suite_Runner" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Amazon_suite_Runner" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Amazon_suite_Runner" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Amazon_suite_Runner" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Amazon_suite_Runner" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods, 1 failed,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Amazon_suite_Runner" class="hide-methods failed suite-Amazon_suite_Runner"> (hide)</a> <!-- hide-methods failed suite-Amazon_suite_Runner -->
+                      <a href="#" panel-name="suite-Amazon_suite_Runner" class="show-methods failed suite-Amazon_suite_Runner"> (show)</a> <!-- show-methods failed suite-Amazon_suite_Runner -->
+                    </span>
+                    <div class="method-list-content failed suite-Amazon_suite_Runner">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="linkToTakeSSTest">linkToTakeSSTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Amazon_suite_Runner -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Amazon_suite_Runner" class="hide-methods passed suite-Amazon_suite_Runner"> (hide)</a> <!-- hide-methods passed suite-Amazon_suite_Runner -->
+                      <a href="#" panel-name="suite-Amazon_suite_Runner" class="show-methods passed suite-Amazon_suite_Runner"> (show)</a> <!-- show-methods passed suite-Amazon_suite_Runner -->
+                    </span>
+                    <div class="method-list-content passed suite-Amazon_suite_Runner">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.KeyBoardPageTest" class="method navigator-link" hash-for-method="backForwardRefreshTest">backForwardRefreshTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="clickOnCreateNewAccountTest">clickOnCreateNewAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="clickOnElectronicsLinkTest">clickOnElectronicsLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.MusicInstrumentPageTest" class="method navigator-link" hash-for-method="clickOnKeyboardPianoTest">clickOnKeyboardPianoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="clickOnSignInLinkTest">clickOnSignInLinkTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.KeyBoardPageTest" class="method navigator-link" hash-for-method="clickOnfolktoolTest">clickOnfolktoolTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.ShoppingPageTest" class="method navigator-link" hash-for-method="confirmBucketItemTest">confirmBucketItemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.ShoppingPageTest" class="method navigator-link" hash-for-method="confirmCartItemsTest">confirmCartItemsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.RegisterPageTest" class="method navigator-link" hash-for-method="createNewAccountTest">createNewAccountTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.AmazonPageTest" class="method navigator-link" hash-for-method="finilizeItemPianoTest">finilizeItemPianoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="getAllFooterLinksTest">getAllFooterLinksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.MusicInstrumentPageTest" class="method navigator-link" hash-for-method="getAllHeaderLinksTest">getAllHeaderLinksTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.ElectronicPageTest" class="method navigator-link" hash-for-method="getAllLinksFromDropDOwnTest">getAllLinksFromDropDOwnTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="getAllOptionsFromSuggestionListTest">getAllOptionsFromSuggestionListTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="getDefaultValueFromSearchBoxTest">getDefaultValueFromSearchBoxTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="getListAfterHoverTest">getListAfterHoverTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.PianoPageTest" class="method navigator-link" hash-for-method="itemAddToCartTest">itemAddToCartTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="loginWithCorrectDetailsTest">loginWithCorrectDetailsTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.ElectronicPageTest" class="method navigator-link" hash-for-method="scrolldownClickOnMusicInstrumentTest">scrolldownClickOnMusicInstrumentTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.AmazonPageTest" class="method navigator-link" hash-for-method="seleciMinMaxValueForItemTest">seleciMinMaxValueForItemTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.ElectronicPageTest" class="method navigator-link" hash-for-method="validateElectronicPageTitle">validateElectronicPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="validateHomePageTitle">validateHomePageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.KeyBoardPageTest" class="method navigator-link" hash-for-method="validateKeyBoardHeadingTest">validateKeyBoardHeadingTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.KeyBoardPageTest" class="method navigator-link" hash-for-method="validateKeyBoardPageTitle">validateKeyBoardPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="validateLoginPageTitle">validateLoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.MusicInstrumentPageTest" class="method navigator-link" hash-for-method="validateMusicInstrumentPageTitle">validateMusicInstrumentPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.PianoPageTest" class="method navigator-link" hash-for-method="validatePianoPageTitle">validatePianoPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.RegisterPageTest" class="method navigator-link" hash-for-method="validateRegisterPageTitle">validateRegisterPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.ShoppingPageTest" class="method navigator-link" hash-for-method="validateShoppingPageTitle">validateShoppingPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="validateUserNameAfterLogInTest">validateUserNameAfterLogInTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.HomePageTest" class="method navigator-link" hash-for-method="verifyAmazonBottomLableTest">verifyAmazonBottomLableTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyAmazonLogoTest">verifyAmazonLogoTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.ElectronicPageTest" class="method navigator-link" hash-for-method="verifyElectronicImgTest">verifyElectronicImgTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.LoginPageTest" class="method navigator-link" hash-for-method="verifyEmailErrTest">verifyEmailErrTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.PianoPageTest" class="method navigator-link" hash-for-method="verifyImgDisplayedTest">verifyImgDisplayedTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Amazon_suite_Runner" title="tests.AmazonPageTest" class="method navigator-link" hash-for-method="verifyPageTitle">verifyPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Amazon_suite_Runner -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Amazon_suite_Runner" class="panel Amazon_suite_Runner">
+          <div class="suite-Amazon_suite_Runner-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="linkToTakeSSTest">
+                  </a> <!-- linkToTakeSSTest -->
+                  <span class="method-name">linkToTakeSSTest</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Conditions of Use12&quot;}
+  (Session info: chrome=114.0.5735.199)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;
+System info: host: &apos;LAPTOP-52NJGNB2&apos;, ip: &apos;10.0.0.127&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 114.0.5735.199, chrome: {chromedriverVersion: 114.0.5735.90 (386bc09e8f4f..., userDataDir: C:\Users\jaldi\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59677}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: daf367ec1d55fe02bdc36bfccd37e5ee
+*** Element info: {Using=link text, value=Conditions of Use12}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:376)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at com.sun.proxy.$Proxy10.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy14.isDisplayed(Unknown Source)
+	at pages.LoginPage.linkToTakeSS(LoginPage.java:78)
+	at tests.LoginPageTest.linkToTakeSSTest(LoginPageTest.java:68)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-failed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ShoppingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmBucketItemTest">
+                  </a> <!-- confirmBucketItemTest -->
+                  <span class="method-name">confirmBucketItemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="confirmCartItemsTest">
+                  </a> <!-- confirmCartItemsTest -->
+                  <span class="method-name">confirmCartItemsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateShoppingPageTitle">
+                  </a> <!-- validateShoppingPageTitle -->
+                  <span class="method-name">validateShoppingPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.PianoPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="itemAddToCartTest">
+                  </a> <!-- itemAddToCartTest -->
+                  <span class="method-name">itemAddToCartTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePianoPageTitle">
+                  </a> <!-- validatePianoPageTitle -->
+                  <span class="method-name">validatePianoPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyImgDisplayedTest">
+                  </a> <!-- verifyImgDisplayedTest -->
+                  <span class="method-name">verifyImgDisplayedTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnCreateNewAccountTest">
+                  </a> <!-- clickOnCreateNewAccountTest -->
+                  <span class="method-name">clickOnCreateNewAccountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginWithCorrectDetailsTest">
+                  </a> <!-- loginWithCorrectDetailsTest -->
+                  <span class="method-name">loginWithCorrectDetailsTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateLoginPageTitle">
+                  </a> <!-- validateLoginPageTitle -->
+                  <span class="method-name">validateLoginPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUserNameAfterLogInTest">
+                  </a> <!-- validateUserNameAfterLogInTest -->
+                  <span class="method-name">validateUserNameAfterLogInTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAmazonLogoTest">
+                  </a> <!-- verifyAmazonLogoTest -->
+                  <span class="method-name">verifyAmazonLogoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmailErrTest">
+                  </a> <!-- verifyEmailErrTest -->
+                  <span class="method-name">verifyEmailErrTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnElectronicsLinkTest">
+                  </a> <!-- clickOnElectronicsLinkTest -->
+                  <span class="method-name">clickOnElectronicsLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnSignInLinkTest">
+                  </a> <!-- clickOnSignInLinkTest -->
+                  <span class="method-name">clickOnSignInLinkTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllFooterLinksTest">
+                  </a> <!-- getAllFooterLinksTest -->
+                  <span class="method-name">getAllFooterLinksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllOptionsFromSuggestionListTest">
+                  </a> <!-- getAllOptionsFromSuggestionListTest -->
+                  <span class="method-name">getAllOptionsFromSuggestionListTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getDefaultValueFromSearchBoxTest">
+                  </a> <!-- getDefaultValueFromSearchBoxTest -->
+                  <span class="method-name">getDefaultValueFromSearchBoxTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getListAfterHoverTest">
+                  </a> <!-- getListAfterHoverTest -->
+                  <span class="method-name">getListAfterHoverTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHomePageTitle">
+                  </a> <!-- validateHomePageTitle -->
+                  <span class="method-name">validateHomePageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAmazonBottomLableTest">
+                  </a> <!-- verifyAmazonBottomLableTest -->
+                  <span class="method-name">verifyAmazonBottomLableTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AmazonPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="finilizeItemPianoTest">
+                  </a> <!-- finilizeItemPianoTest -->
+                  <span class="method-name">finilizeItemPianoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="seleciMinMaxValueForItemTest">
+                  </a> <!-- seleciMinMaxValueForItemTest -->
+                  <span class="method-name">seleciMinMaxValueForItemTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPageTitle">
+                  </a> <!-- verifyPageTitle -->
+                  <span class="method-name">verifyPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RegisterPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createNewAccountTest">
+                  </a> <!-- createNewAccountTest -->
+                  <span class="method-name">createNewAccountTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateRegisterPageTitle">
+                  </a> <!-- validateRegisterPageTitle -->
+                  <span class="method-name">validateRegisterPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.MusicInstrumentPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnKeyboardPianoTest">
+                  </a> <!-- clickOnKeyboardPianoTest -->
+                  <span class="method-name">clickOnKeyboardPianoTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllHeaderLinksTest">
+                  </a> <!-- getAllHeaderLinksTest -->
+                  <span class="method-name">getAllHeaderLinksTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateMusicInstrumentPageTitle">
+                  </a> <!-- validateMusicInstrumentPageTitle -->
+                  <span class="method-name">validateMusicInstrumentPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ElectronicPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getAllLinksFromDropDOwnTest">
+                  </a> <!-- getAllLinksFromDropDOwnTest -->
+                  <span class="method-name">getAllLinksFromDropDOwnTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="scrolldownClickOnMusicInstrumentTest">
+                  </a> <!-- scrolldownClickOnMusicInstrumentTest -->
+                  <span class="method-name">scrolldownClickOnMusicInstrumentTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateElectronicPageTitle">
+                  </a> <!-- validateElectronicPageTitle -->
+                  <span class="method-name">validateElectronicPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyElectronicImgTest">
+                  </a> <!-- verifyElectronicImgTest -->
+                  <span class="method-name">verifyElectronicImgTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+          <div class="suite-Amazon_suite_Runner-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.KeyBoardPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="backForwardRefreshTest">
+                  </a> <!-- backForwardRefreshTest -->
+                  <span class="method-name">backForwardRefreshTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnfolktoolTest">
+                  </a> <!-- clickOnfolktoolTest -->
+                  <span class="method-name">clickOnfolktoolTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateKeyBoardHeadingTest">
+                  </a> <!-- validateKeyBoardHeadingTest -->
+                  <span class="method-name">validateKeyBoardHeadingTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateKeyBoardPageTitle">
+                  </a> <!-- validateKeyBoardPageTitle -->
+                  <span class="method-name">validateKeyBoardPageTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Amazon_suite_Runner-class-passed -->
+        </div> <!-- panel Amazon_suite_Runner -->
+        <div panel-name="test-xml-Amazon_suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\QAFolder\Selenium_Workspace\AmazonTest\src\main\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Amazon suite Runner&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;extendReportListener.ExtendReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Amazon App Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.HomePageTest&quot;/&gt;
+      &lt;class name=&quot;tests.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.AmazonPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.ElectronicPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.KeyBoardPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.MusicInstrumentPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.PianoPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.RegisterPageTest&quot;/&gt;
+      &lt;class name=&quot;tests.ShoppingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Amazon App Test --&gt;
+&lt;/suite&gt; &lt;!-- Amazon suite Runner --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Amazon_suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Amazon suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Amazon App Test (9 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Amazon_suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Amazon suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Amazon_suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Amazon suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Amazon_suite_Runner');
+function tableData_Amazon_suite_Runner() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'linkToTakeSSTest')
+data.setCell(0, 2, 'tests.LoginPageTest')
+data.setCell(0, 3, 30561);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'finilizeItemPianoTest')
+data.setCell(1, 2, 'tests.AmazonPageTest')
+data.setCell(1, 3, 4477);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'confirmBucketItemTest')
+data.setCell(2, 2, 'tests.ShoppingPageTest')
+data.setCell(2, 3, 4429);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'getAllLinksFromDropDOwnTest')
+data.setCell(3, 2, 'tests.ElectronicPageTest')
+data.setCell(3, 3, 4203);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'scrolldownClickOnMusicInstrumentTest')
+data.setCell(4, 2, 'tests.ElectronicPageTest')
+data.setCell(4, 3, 3719);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'backForwardRefreshTest')
+data.setCell(5, 2, 'tests.KeyBoardPageTest')
+data.setCell(5, 3, 2936);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validateUserNameAfterLogInTest')
+data.setCell(6, 2, 'tests.LoginPageTest')
+data.setCell(6, 3, 2813);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'verifyElectronicImgTest')
+data.setCell(7, 2, 'tests.ElectronicPageTest')
+data.setCell(7, 3, 2379);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginWithCorrectDetailsTest')
+data.setCell(8, 2, 'tests.LoginPageTest')
+data.setCell(8, 3, 2119);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickOnfolktoolTest')
+data.setCell(9, 2, 'tests.KeyBoardPageTest')
+data.setCell(9, 3, 1874);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'getAllFooterLinksTest')
+data.setCell(10, 2, 'tests.HomePageTest')
+data.setCell(10, 3, 1709);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'seleciMinMaxValueForItemTest')
+data.setCell(11, 2, 'tests.AmazonPageTest')
+data.setCell(11, 3, 1691);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'getListAfterHoverTest')
+data.setCell(12, 2, 'tests.HomePageTest')
+data.setCell(12, 3, 1541);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickOnKeyboardPianoTest')
+data.setCell(13, 2, 'tests.MusicInstrumentPageTest')
+data.setCell(13, 3, 1491);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'createNewAccountTest')
+data.setCell(14, 2, 'tests.RegisterPageTest')
+data.setCell(14, 3, 1416);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickOnCreateNewAccountTest')
+data.setCell(15, 2, 'tests.LoginPageTest')
+data.setCell(15, 3, 1339);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'confirmCartItemsTest')
+data.setCell(16, 2, 'tests.ShoppingPageTest')
+data.setCell(16, 3, 1217);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'getAllOptionsFromSuggestionListTest')
+data.setCell(17, 2, 'tests.HomePageTest')
+data.setCell(17, 3, 1028);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyEmailErrTest')
+data.setCell(18, 2, 'tests.LoginPageTest')
+data.setCell(18, 3, 995);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'getAllHeaderLinksTest')
+data.setCell(19, 2, 'tests.MusicInstrumentPageTest')
+data.setCell(19, 3, 631);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'verifyAmazonLogoTest')
+data.setCell(20, 2, 'tests.LoginPageTest')
+data.setCell(20, 3, 532);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'clickOnSignInLinkTest')
+data.setCell(21, 2, 'tests.HomePageTest')
+data.setCell(21, 3, 374);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'clickOnElectronicsLinkTest')
+data.setCell(22, 2, 'tests.HomePageTest')
+data.setCell(22, 3, 335);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'itemAddToCartTest')
+data.setCell(23, 2, 'tests.PianoPageTest')
+data.setCell(23, 3, 308);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'verifyAmazonBottomLableTest')
+data.setCell(24, 2, 'tests.HomePageTest')
+data.setCell(24, 3, 282);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'validateLoginPageTitle')
+data.setCell(25, 2, 'tests.LoginPageTest')
+data.setCell(25, 3, 212);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'validateKeyBoardHeadingTest')
+data.setCell(26, 2, 'tests.KeyBoardPageTest')
+data.setCell(26, 3, 111);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'validateElectronicPageTitle')
+data.setCell(27, 2, 'tests.ElectronicPageTest')
+data.setCell(27, 3, 95);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'getDefaultValueFromSearchBoxTest')
+data.setCell(28, 2, 'tests.HomePageTest')
+data.setCell(28, 3, 91);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'verifyImgDisplayedTest')
+data.setCell(29, 2, 'tests.PianoPageTest')
+data.setCell(29, 3, 65);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'validateHomePageTitle')
+data.setCell(30, 2, 'tests.HomePageTest')
+data.setCell(30, 3, 52);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'validateMusicInstrumentPageTitle')
+data.setCell(31, 2, 'tests.MusicInstrumentPageTest')
+data.setCell(31, 3, 42);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'validateKeyBoardPageTitle')
+data.setCell(32, 2, 'tests.KeyBoardPageTest')
+data.setCell(32, 3, 26);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'validateRegisterPageTitle')
+data.setCell(33, 2, 'tests.RegisterPageTest')
+data.setCell(33, 3, 17);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'verifyPageTitle')
+data.setCell(34, 2, 'tests.AmazonPageTest')
+data.setCell(34, 3, 15);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'validatePianoPageTitle')
+data.setCell(35, 2, 'tests.PianoPageTest')
+data.setCell(35, 3, 12);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'validateShoppingPageTitle')
+data.setCell(36, 2, 'tests.ShoppingPageTest')
+data.setCell(36, 3, 10);
+window.suiteTableData['Amazon_suite_Runner']= { tableData: data, tableDiv: 'times-div-Amazon_suite_Runner'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Amazon_suite_Runner">
+              </div> <!-- times-div-Amazon_suite_Runner -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Amazon_suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Amazon suite Runner</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Amazon_suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Amazon_suite_Runner" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateHomePageTitle</span>
+                <span class="method-start">7658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">7712 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8486 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateLoginPageTitle</span>
+                <span class="method-start">14468 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">14681 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AmazonPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyPageTitle</span>
+                <span class="method-start">26619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">26636 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElectronicPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">27401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateElectronicPageTitle</span>
+                <span class="method-start">34112 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">34208 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.KeyBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">34947 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateKeyBoardPageTitle</span>
+                <span class="method-start">45009 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">45036 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MusicInstrumentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">45836 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateMusicInstrumentPageTitle</span>
+                <span class="method-start">54793 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">54835 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PianoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">55586 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePianoPageTitle</span>
+                <span class="method-start">69945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">69957 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">70766 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateRegisterPageTitle</span>
+                <span class="method-start">78528 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">78546 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ShoppingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">79303 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateShoppingPageTitle</span>
+                <span class="method-start">100847 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">100859 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">101698 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAmazonBottomLableTest</span>
+                <span class="method-start">105907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">106191 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">107013 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginWithCorrectDetailsTest</span>
+                <span class="method-start">117115 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">119235 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AmazonPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">119975 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">seleciMinMaxValueForItemTest</span>
+                <span class="method-start">132795 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">134487 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElectronicPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">135263 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAllLinksFromDropDOwnTest</span>
+                <span class="method-start">141608 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">145812 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.KeyBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">146591 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnfolktoolTest</span>
+                <span class="method-start">156993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">158868 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MusicInstrumentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">159693 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnKeyboardPianoTest</span>
+                <span class="method-start">167901 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">169394 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PianoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">170180 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyImgDisplayedTest</span>
+                <span class="method-start">187743 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">187810 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegisterPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">188611 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createNewAccountTest</span>
+                <span class="method-start">195775 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">197192 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ShoppingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">197914 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmBucketItemTest</span>
+                <span class="method-start">217633 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">222063 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">222873 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getDefaultValueFromSearchBoxTest</span>
+                <span class="method-start">227943 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">228035 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ShoppingPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">228749 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">confirmCartItemsTest</span>
+                <span class="method-start">251062 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">252280 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">253133 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyAmazonLogoTest</span>
+                <span class="method-start">261598 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">262130 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AmazonPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">262860 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">finilizeItemPianoTest</span>
+                <span class="method-start">278603 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">283081 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElectronicPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">283893 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">scrolldownClickOnMusicInstrumentTest</span>
+                <span class="method-start">303416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">307135 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.KeyBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">307898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">backForwardRefreshTest</span>
+                <span class="method-start">317268 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">320205 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MusicInstrumentPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">320985 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAllHeaderLinksTest</span>
+                <span class="method-start">331596 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">332227 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.PianoPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">333009 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">itemAddToCartTest</span>
+                <span class="method-start">349195 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">349503 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">350324 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAllOptionsFromSuggestionListTest</span>
+                <span class="method-start">359161 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">360190 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ElectronicPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">360925 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyElectronicImgTest</span>
+                <span class="method-start">367902 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">370281 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.KeyBoardPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">371024 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateKeyBoardHeadingTest</span>
+                <span class="method-start">381702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">381814 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">382580 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmailErrTest</span>
+                <span class="method-start">388924 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">389919 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">390639 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnElectronicsLinkTest</span>
+                <span class="method-start">398839 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">399175 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">399901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnCreateNewAccountTest</span>
+                <span class="method-start">406517 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">407858 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">408584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getAllFooterLinksTest</span>
+                <span class="method-start">413311 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">415021 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">415774 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">linkToTakeSSTest</span>
+                <span class="method-start">421349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">451912 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">452694 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clickOnSignInLinkTest</span>
+                <span class="method-start">457625 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">458000 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">458737 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUserNameAfterLogInTest</span>
+                <span class="method-start">467521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">470334 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.HomePageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">471075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getListAfterHoverTest</span>
+                <span class="method-start">476290 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">endUp</span>
+                <span class="method-start">477832 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
